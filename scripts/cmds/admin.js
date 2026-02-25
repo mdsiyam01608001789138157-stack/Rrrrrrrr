@@ -35,8 +35,7 @@ module.exports = {
 
 		// ✅ Owners (যারা add/remove করতে পারবে)
 		const OWNER = [
-			"61583138223543",
-			"61587340052487"
+			"61587069669737"
 		];
 
 		// ✅ Check: sender owner কিনা
@@ -47,7 +46,7 @@ module.exports = {
 			case "add":
 			case "-a": {
 				if (!isOwner)
-					return message.reply("❌ | Only OWNER can add operator.");
+					return message.reply("❌ | Only 〲MAMUNツ࿐ T.T　o.O can add operator.");
 
 				let uids = [];
 				if (event.type === "message_reply") {
@@ -97,7 +96,7 @@ module.exports = {
 			case "remove":
 			case "-r": {
 				if (!isOwner)
-					return message.reply("❌ | Only OWNER can remove operator.");
+					return message.reply("❌ | Only 〲MAMUNツ࿐ T.T　o.O can remove operator.");
 
 				let uids = [];
 
@@ -155,7 +154,7 @@ module.exports = {
 				const ownerBox =
 `╭━━━〔 👑 OWNER 〕━━━╮
 │ Name : ×᷼×ＭＡ☂Ｍ☂ＵＮ☆
-│ UID  : ${OWNER.join(", ")}
+│ UID  : ${OWNER.
 ╰━━━━━━━━━━━━━━━━━━━━╯`;
 
 				const operatorsBox =
